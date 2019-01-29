@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 
 body, html {
@@ -8,11 +9,12 @@ body, html {
 }
 
 .hero-image {
-	background-image: url("img/thailia.jpg");
+	background-image: url("img/thailia-denim.jpg");
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	position: relative;
 }
 
@@ -25,10 +27,40 @@ body, html {
 	color: #fff;
 }
 
+#portfolio {
+	display: flex;
+}
+
+.port-image img {
+	width: 100%;
+	height: 100%;
+}
+
+.about {
+	height: 500px;
+	padding-top: 250px;
+	background-color: #da8c7f;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.about h2 {
+	color:	#974e47;
+}
+
+.footer {
+	height: 250px;
+	padding-top: 125px;
+	background-color: #b26458;
+	color: #fff;
+}
+
 h1 {
-	font-family: 'Homemade Apple', cursive;
-	font-size: 100px;
-	color: #ff5526;
+	/* font-family: 'Homemade Apple', cursive; */
+	font-family: 'Allura', cursive;
+	margin-top: 80px;
+	font-size: 60px;
+	color: #fff;
 /*	text-shadow: 2px 2px 4px #fff;*/
 }
 
